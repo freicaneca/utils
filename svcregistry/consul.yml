@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  consul:
+    image: consul:1.15.4
+    container_name: consul
+    network_mode: "host"
